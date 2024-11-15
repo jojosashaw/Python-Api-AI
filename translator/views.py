@@ -12,7 +12,7 @@ class FrenchSpanishTranslationViewSet(APIView):
     def get(self, request):
         import google.generativeai as genai
 
-        KEY_API = "AIzaSyDVgWsbKztUZuQur1l5Zlryeacqj8gn95s"
+        KEY_API = ""
         genai.configure(api_key=KEY_API)
 
         model = genai.GenerativeModel("gemini-1.5-flash")

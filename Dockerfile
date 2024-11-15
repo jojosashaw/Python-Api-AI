@@ -15,3 +15,6 @@ ADD . /polyteacher
 
 # Install the libraries
 RUN pip install -r requirements.txt
+
+# API google
+ENV API_KEY="AIzaSyDVgWsbKztUZuQur1l5Zlryeacqj8gn95s"
